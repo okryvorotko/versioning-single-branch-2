@@ -1,0 +1,13 @@
+{
+  "name": "versioning-current",
+  "version": "1.0.0",
+  "scripts": {
+    "test:app:2.8": "mocha tests -g '@app|@2.8' -g '@2.9|@2.10|@connectors' -i",
+    "test:app:2.9": "mocha tests -g '@app|@2.9' -g '@2.8|@2.10|@connectors' -i",
+    "test:app:2.10": "mocha tests -g '@app|@2.10' -g '@2.8|@2.9|@connectors' -i",
+    "test:connectors": "mocha tests -g @connectors"
+  },
+  "dependencies": {
+    "mocha": "^10.2.0"
+  }
+}

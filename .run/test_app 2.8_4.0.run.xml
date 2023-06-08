@@ -1,0 +1,15 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="test:app 2.8/4.0" type="js.build_tools.npm">
+    <package-json value="$PROJECT_DIR$/package.json" />
+    <command value="run" />
+    <scripts>
+      <script value="test:app:2.8" />
+    </scripts>
+    <node-interpreter value="project" />
+    <envs>
+      <env name="APP_VERSION" value="2.8" />
+      <env name="CONNECTORS_VERSION" value="4.0" />
+    </envs>
+    <method v="2" />
+  </configuration>
+</component>
